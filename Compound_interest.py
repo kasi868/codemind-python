@@ -1,3 +1,3 @@
 p,r,t=map(int,input().split())
-CI=p*((1+r/100) ** t)
-print("%.2f" %CI)
+a=p*(pow((1+r/100),t))
+print("{0:.2f}".format(a))
